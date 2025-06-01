@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Zap, Github, Twitter, Linkedin, Mail } from 'lucide-react';
@@ -39,7 +38,7 @@ const Footer = () => {
     <>
       <footer className="bg-slate-900 text-white relative overflow-hidden">
         {/* Background Pattern */}
-        <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3csvg width=\"60\" height=\"60\" xmlns=\"http://www.w3.org/2000/svg\"%3e%3cdefs%3e%3cpattern id=\"grid\" width=\"60\" height=\"60\" patternUnits=\"userSpaceOnUse\"%3e%3cpath d=\"m 60 0 l 0 60 l -60 0 l 0 -60 z\" fill=\"none\" stroke=\"%23ffffff\" stroke-width=\"0.5\" opacity=\"0.05\"/%3e%3c/pattern%3e%3c/defs%3e%3crect width=\"100%25\" height=\"100%25\" fill=\"url(%23grid)\"/%3e%3c/svg%3e')] opacity-50"></div>
+        <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3csvg width=\\'60\\' height=\\'60\\' xmlns=\\'http://www.w3.org/2000/svg\\'%3e%3cdefs%3e%3cpattern id=\\'grid\\' width=\\'60\\' height=\\'60\\' patternUnits=\\'userSpaceOnUse\\'%3e%3cpath d=\\'m 60 0 l 0 60 l -60 0 l 0 -60 z\\' fill=\\'none\\' stroke=\\'%23ffffff\\' stroke-width=\\'0.5\\' opacity=\\'0.05\\'/%3e%3c/pattern%3e%3c/defs%3e%3crect width=\\'100%25\\' height=\\'100%25\\' fill=\\'url(%23grid)\\'/%3e%3c/svg%3e')] opacity-50"></div>
         
         <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
           {/* Main Footer Content */}
@@ -148,7 +147,6 @@ const Footer = () => {
           >
             <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0 text-sm text-gray-400">
               <p>&copy; 2024 StackPulse. All rights reserved.</p>
-              <p>Built with ❤️ for founders who want to ship fast.</p>
             </div>
           </motion.div>
         </div>
